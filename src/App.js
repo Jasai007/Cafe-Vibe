@@ -10,6 +10,7 @@ const App = () => {
     'https://cdn.usegalileo.ai/stability/0f116016-0297-427d-ade5-c1dcc8b31bd8.png',
     'https://cdn.usegalileo.ai/stability/0fd6cff5-9714-4d9e-82c0-093f6b612998.png',
     'https://cdn.usegalileo.ai/stability/42ecb2f1-ff58-4575-8177-3074b712ddcf.png',
+    'https://lh3.googleusercontent.com/p/AF1QipNhpHEwm_F5l4rVKF4Osw1IYtn5Y1OvbNKYa7Zy=s1360-w1360-h1020',
   ];
 
   const awardsImages = [

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import toast from 'react-hot-toast';
+import CafeMap from '../components/CafeMap';
 
 type FormValues = {
   name: string;
@@ -221,25 +222,7 @@ const Contact: React.FC = () => {
 
       {/* Map Section */}
       <section className="h-[400px] relative">
-        {/* This would be a real map integration in a production app */}
-        <div className="absolute inset-0 bg-cream-dark flex items-center justify-center">
-          <div className="text-center p-4">
-            <MapPin size={48} className="text-accent mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Brew Haven</h3>
-            <p className="text-brown mb-4">123 Coffee Street, Seattle, WA 98101</p>
-            <a 
-              href="https://maps.google.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              Get Directions
-            </a>
-            <p className="text-sm text-brown-light mt-4">
-              In a real application, an interactive map would be displayed here.
-            </p>
-          </div>
-        </div>
+        <CafeMap />
       </section>
 
       {/* FAQ Section */}
